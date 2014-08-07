@@ -64,7 +64,7 @@
 
 	
 
-      <a href="/home/" class="ir">Birmingham Botanical Gardens Events</a>
+      <a href="/home/" class="ir">Old Royal Naval College Events</a>
 
     </h1>
 
