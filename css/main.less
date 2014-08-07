@@ -66,7 +66,7 @@ html {
 /* TYPE & LINKS
 ------------ */
 body {
-	font-family:Arial, Helvetica, sans-serif;
+	
 	font-size:12px;
 	color:#58585B;
 }
@@ -77,6 +77,7 @@ a {
 p {
 	line-height:15px;
 	margin-bottom:14px;
+	
 }
 h2 {
 	font-size:18px;
@@ -93,6 +94,9 @@ h2 {
 h3.blog-title {
 	font-size:14px;
 	margin-bottom:14px;
+border-bottom: 1px solid #8b0036;
+padding-bottom: 5px;
+width: 450px;
 }
 h5 {
 	font-size:12px;
@@ -103,7 +107,7 @@ h5 {
 /* LAYOUT
 ------------ */
 .wrapper {
-	width:624px;
+	width:1024px;
 	background:#FFFFFF;
 	margin:0 auto;
 	padding:15px 20px;
@@ -119,17 +123,24 @@ h5 {
 }
 .col2-left {
 	float:left;
-	width:400px;
+	width:656px;
 	margin-right:14px;
 	position:relative;
 }
+
+.page-id-124 .col2-left {
+	
+	width:590px;
+	
+}
+
 .col2-right {
 	float:left;
-	width:210px;
+	width:344px;
 	position:relative;
 }
 footer {
-	width:664px;
+	width:1024px;
 	margin:20px auto;
 	position:relative;
 }
@@ -142,26 +153,27 @@ header {
 	width:100%;
 }
 .logo {
-	width:96px; height:63px;
+	width:150px; height:98px;
 	float:left;
 	margin-right:7px;
 }
 .logo a {
-	width:96px; height:63px;
+	width:150px; height:98px;
 	display:block;
-	background:url(../images/law-society-logo.png) no-repeat 0 0;
+	background:url(/venue/wp-content/uploads/2013/12/BBG_Events_Logo_JPEG-150.png) no-repeat -15px -15px;
 }
 .main-carousel {
-	width:400px; height:266px;
+	width:656px; height:436px;
 	float:left;
+	overflow: hidden!important;
 }
 .main-carousel .slides {
-	background-image:url(../images/loader.gif);
+	background-image:url(images/loader.gif);
 	background-repeat:no-repeat;
 	background-position:center center;
 }
 .main-carousel .slides li a > img {
-	width:400px;
+	width:656px;
 	height:auto;
 }
 .main-carousel .slides li a {
@@ -170,9 +182,9 @@ header {
 .feature-pods {
 	position:relative;
 	margin-bottom:12px;
-	width:408px;
+	width:670px;
 	float:left;
-	margin-left: -8px;
+	margin-left: -13px;
     overflow:hidden;
     clear:both;
 }
@@ -186,16 +198,16 @@ header {
     clear:both;
 }
 .package-features ul.slides {
-	width: 405px;
-    margin-left: -5px;
+	width: 1024px;
+    margin-left: -13px;
     overflow:hidden;
     clear:both;
 }
 .single-room-features ul.slides > li {
-	width:128px; height:128px;
+	width:210px!important; height:210px!important;
 	float:left;
 	position:relative;
-	margin-left:5px; 
+	margin-left:13px; 
 	overflow:hidden;
 }
 .single-room-features ul.slides > li:first-child {
@@ -213,9 +225,9 @@ header {
 	width:100%; height:auto;
 }
 .feature-pods > li {
-	width:128px; height:128px;
+	width:210px; height:210px;
 	float:left;
-	margin-left:8px;
+	margin-left:13px;
 	margin-bottom:8px;
 	background:#58585B;
 	display:block;
@@ -224,7 +236,7 @@ header {
 }
 .feature-pods > li a {
 	display:block;
-	width:128px; height:128px;
+	width:210px; height:210px;
 	position:relative;
 	overflow:hidden;
 }
@@ -234,17 +246,18 @@ header {
 }
 .pod-title {
 	display:block;
-	height:25px; line-height:25px;
+	height:41px; line-height:41px;
 	width:95%;
 	padding-left:5%;
 	position:absolute;
 	bottom:0; left:0;
 	text-transform:capitalize;
+font-size: 16px;
 }
 	
 /* event spaces */
 .event-rooms {
-	width: 638px;
+	width: 1124px;
     margin-left: -20px;
     overflow:hidden;
     clear:both;
@@ -252,7 +265,7 @@ header {
 .event-rooms > li {
 	float:left;
     margin: 0 0 45px 20px;
-	width:299px; height:102px;
+	width:499px; height:165px;
 }
 .event-rooms > li h5 {
 	color:#333;
@@ -262,7 +275,7 @@ header {
 }
 .event-rooms > li a.room-img {
 	display:block;
-	width:155px; height:102px;
+	width:248px; height:165px;
 	float:left;
 	margin-right:12px;
     overflow:hidden;
@@ -271,22 +284,22 @@ header {
 	opacity:0.8;
 }
 .event-rooms > li a img {
-	width:155px; height:auto;
+	width:248px; height:auto;
 }
 .event-rooms > li .event-rooms-excerpt {
 	float:left;
-	width:130px;
+	width:190px;
 }
 ul.room-info-boxes, ul.wp-tag-cloud {
-	width:630px;
+	width:1024px;
     margin-left: -7px;
     overflow:hidden;
     clear:both;
 	margin-bottom:15px;
 }
 ul.room-info-boxes li, .wp-tag-cloud li {
-	width:119px;
-	height:23px; line-height:23px;
+	width:230px;
+	height:38px; line-height:38px;
 	float:left;
 	margin:0 0 7px 7px;
 }
@@ -321,17 +334,17 @@ ul.room-info-boxes li, .wp-tag-cloud li {
 	margin-right:10px;
 }
 .rooms .summary .blog-img {
-	width:155px; height:102px;
+	width:190px; height:190px;
 	float:left;
 	margin-right:10px;
 }
 .home-latest .summary .blog-img {
-	width:60px; height:60px;
+	width:190px; height:190px;
 	float:left;
 	margin-right:10px;
 }
 .home-latest .summary .blog-img a {
-	width:60px; height:60px;
+	width:190px; height:190px;
 	display:block;
 }
 .home-latest .summary .blog-summary-contents p {
@@ -349,7 +362,7 @@ ul.room-info-boxes li, .wp-tag-cloud li {
 	float:left;
 }
 .home-latest .summary .blog-summary-contents {
-	width:330px;
+	width:450px;
 	float:left;
 }
 .blogs .title-tags, .rooms .title-tags {
@@ -357,6 +370,35 @@ ul.room-info-boxes li, .wp-tag-cloud li {
 }
 .home-latest .title-tags {
 	margin-bottom:8px;
+}
+
+.home-latest .news
+{display: none;
+width: 190px;
+background-color: #4c6953;
+color: #fff;
+/* Safari */
+-webkit-transform: rotate(-90deg);
+
+/* Firefox */
+-moz-transform: rotate(-90deg);
+
+/* IE */
+-ms-transform: rotate(-90deg);
+
+/* Opera */
+-o-transform: rotate(-90deg);
+
+/* Internet Explorer */
+filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+
+position: relative;
+left:0px;
+top:-140px;
+
+zoom: 1;
+	filter: alpha(opacity=50);
+	opacity: 0.5;
 }
 
 
@@ -373,7 +415,7 @@ ul.room-info-boxes li, .wp-tag-cloud li {
 }
 /* promo boxes */
 .promo-box {
-	width:210px;
+	width:346px;
 }
 .promo-box a {
 	display:block;
@@ -400,7 +442,7 @@ ul.room-info-boxes li, .wp-tag-cloud li {
 
 /* main-nav */
 .main-nav {
-	margin-top:45px;
+	margin-top:65px;
 }
 .main-nav ul li, .main-nav {
 	float:left;
@@ -414,11 +456,13 @@ ul.room-info-boxes li, .wp-tag-cloud li {
 }
 .main-nav > ul > li a {
 	display:block;
-	height:23px; line-height:23px;
+	height:34px; line-height:34px;
 	padding:0 15px;
 	position:relative;
-	color:#888;
+	background-color:#8b0036!important;
 	text-transform:lowercase;
+font-size: 18px;
+margin-right: 15px;
 }
 .main-nav > ul > li.current-menu-item > a:after, 
 .main-nav > ul > li.current-menu-item > a:before,
@@ -461,10 +505,10 @@ ul.room-info-boxes li, .wp-tag-cloud li {
 	margin-left:7px;
 }
 ul.room-info-boxes li a {
-	width:103px;
+	width:191px!important;
 	display:block;
-	padding:0 8px;
-	height:23px; line-height:23px;
+	padding:0 16px;
+	height:38px; line-height:38px;
 }
 .event-info-boxes li:first-child {
 	margin-left:0;
@@ -477,10 +521,10 @@ ul.room-info-boxes li a {
 }
 /* contact */
 .map {
-	width:210px; height:264px;
+	width:425px; height:350px;
 }
 .map iframe {
-	width:210px; height:264px;
+	width:425px; height:350px;
 	margin-bottom:10px;
 }
 
@@ -657,7 +701,7 @@ html[xmlns] .slides {display: block;}
 
 /* Direction Nav */
 .flex-direction-nav {*height: 0;}
-.flex-direction-nav a {width: 30px; height: 30px; margin: -15px 0 0; display: block; background: url(../images/room-direction-nav.png) no-repeat 0 0; position: absolute; top: 50%; z-index: 10; cursor: pointer; text-indent: -9999px; opacity: 1; -webkit-transition: all .3s ease;}
+.flex-direction-nav a {width: 30px; height: 30px; margin: -15px 0 0; display: block; background: url(images/room-direction-nav.png) no-repeat 0 0; position: absolute; top: 50%; z-index: 10; cursor: pointer; text-indent: -9999px; opacity: 1; -webkit-transition: all .3s ease;}
 .flex-direction-nav .flex-next {background-position: 100% 0; right: 1px; }
 .flex-direction-nav .flex-prev {left: 1px;}
 .flexslider:hover .flex-next {opacity: 0.9; right: 1px;}
@@ -667,7 +711,7 @@ html[xmlns] .slides {display: block;}
 
 /* Rooms Direction Nav */
 .flex-direction-nav {*height: 0;}
-.flex-direction-nav a {width: 25px; height: 40px; margin: -20px 0 0; display: block; background:url(../images/room-direction-nav.png) no-repeat 0 0; position: absolute; top: 50%; z-index: 1000; cursor: pointer; text-indent: -9999px; opacity: 1; -webkit-transition: all .3s ease;}
+.flex-direction-nav a {width: 25px; height: 40px; margin: -20px 0 0; display: block; background:url(images/room-direction-nav.png) no-repeat 0 0; position: absolute; top: 50%; z-index: 1000; cursor: pointer; text-indent: -9999px; opacity: 1; -webkit-transition: all .3s ease;}
 .flex-direction-nav .flex-next {background-position: 100% 0; right: 1px; }
 .flex-direction-nav .flex-prev {left: 1px;}
 
@@ -689,3 +733,42 @@ html[xmlns] .slides {display: block;}
   .flex-direction-nav .flex-prev {opacity: 1; left: 0;}
   .flex-direction-nav .flex-next {opacity: 1; right: 0;}
 }
+
+/*GARETH ADDITIONS*/
+
+#FSContact1{text-align: center; width: 600px; margin: 0px auto;}
+
+.pure-button{
+font-size: 100%!important;
+padding: .5em 1.5em!important;
+color: #444!important;
+color: rgba(0,0,0,.8)!important;
+border: 1px solid #999!important;
+border: 0 rgba(0,0,0,0)!important;
+background-color: #E6E6E6!important;
+text-decoration: none!important;
+border-radius: 2px!important;
+-webkit-transition: .1s linear -webkit-box-shadow!important;
+-moz-transition: .1s linear -moz-box-shadow!important;
+-ms-transition: .1s linear box-shadow!important;
+-o-transition: .1s linear box-shadow!important;
+transition: .1s linear box-shadow!important;
+}
+
+.pure-form div{
+width: 250px; margin: 0px auto;
+}
+
+#fscf_div_clear1_4, #fscf_div_clear1_4 div{
+width: 550px!important;
+text-align: center;
+}
+
+.purple .page-title {text-align:center;}
+.purple .logo{position: relative; left: 470px;}
+
+/* GARETH LANGSTON ADDED STYLES  */
+
+Float Attachments with captions Left so that they sit side by side
+
+div.wp-caption, .float-left, #attachment_560, #attachment_558{float: left!important; margin-right: 20px!important; }

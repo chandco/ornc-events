@@ -19,10 +19,11 @@
 
 
 <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+<script type="text/javascript" src="//use.typekit.net/jfl7esy.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
-<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/main.css">
 
-<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/theme.css">
+<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/ornc-events.css">
 
 <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/fancybox/jquery.fancybox.css">
 
@@ -35,8 +36,6 @@
 <script src="<?php bloginfo('template_directory'); ?>/lightbox/js/lightbox.js"></script>
 
 <link href="<?php bloginfo('template_directory'); ?>/lightbox/css/lightbox.css" rel="stylesheet" />
-
-<link type="text/css" rel="stylesheet" href="http://fast.fonts.net/cssapi/cd7fcf81-2c45-419e-a674-ad7ffb7cc5ee.css"/>
 
 <script type="text/javascript" src="http://insight.discus.co.uk/vi.js"></script> 
 <script type="text/javascript">vi_track_pageview('300');</script> 
