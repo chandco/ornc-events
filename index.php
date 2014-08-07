@@ -26,7 +26,7 @@
 
   <div class="entry">
   
-    <h2 class="page-title">The Law Society</h2>
+    <h2 class="page-title">ORNC Events</h2>
     
     <p>Untur? Itat quo et denimpo remporibus eum harchil latatur, ute quis accabo. Ut officit, optae nostintum conse simaxim porest volorporum nonsectem hicidi nonempe lluptatqui rem volorepreste el ma quam, quam enist, ium dem volorecab ipsandu ntistiis aut por molenimus pa veles netur accus.
 i rem volorepreste el ma quam, quam enist, ium dem volorecab ipsandu ntistiis aut por molenimus pa veles netur accus.em volorecab ipsandu ntistiis aut por molenimus pa veles netur accus.em volorecab</p>

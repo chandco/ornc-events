@@ -10,19 +10,19 @@
 
  	  <?php $post = $posts[0]; // Hack. Set $post so that the_date() works. ?>
  	  <?php /* If this is a category archive */ if (is_category()) { ?>
-		<h2 class="pagetitle"><?php printf(__('Archive for the &#8216;%s&#8217; Category', 'lawsociety'), single_cat_title('', false)); ?></h2>
+		<h2 class="pagetitle"><?php printf(__('Archive for the &#8216;%s&#8217; Category', 'ornc-events'), single_cat_title('', false)); ?></h2>
  	  <?php /* If this is a tag archive */ } elseif( is_tag() ) { ?>
-		<h2 class="pagetitle"><?php printf(__('Posts Tagged &#8216;<span class="match">%s</span>&#8217;', 'lawsociety'), single_tag_title('', false) ); ?></h2>
+		<h2 class="pagetitle"><?php printf(__('Posts Tagged &#8216;<span class="match">%s</span>&#8217;', 'ornc-events'), single_tag_title('', false) ); ?></h2>
  	  <?php /* If this is a daily archive */ } elseif (is_day()) { ?>
-		<h2 class="pagetitle"><?php printf(_c('Archive for %s|Daily archive page', 'lawsociety'), get_the_time(__('F jS, Y', 'minimalism'))); ?></h2>
+		<h2 class="pagetitle"><?php printf(_c('Archive for %s|Daily archive page', 'ornc-events'), get_the_time(__('F jS, Y', 'minimalism'))); ?></h2>
  	  <?php /* If this is a monthly archive */ } elseif (is_month()) { ?>
-		<h2 class="pagetitle"><?php printf(_c('Archive for %s|Monthly archive page', 'lawsociety'), get_the_time(__('F, Y', 'minimalism'))); ?></h2>
+		<h2 class="pagetitle"><?php printf(_c('Archive for %s|Monthly archive page', 'ornc-events'), get_the_time(__('F, Y', 'minimalism'))); ?></h2>
  	  <?php /* If this is a yearly archive */ } elseif (is_year()) { ?>
-		<h2 class="pagetitle"><?php printf(_c('Archive for %s|Yearly archive page', 'lawsociety'), get_the_time(__('Y', 'minimalism'))); ?></h2>
+		<h2 class="pagetitle"><?php printf(_c('Archive for %s|Yearly archive page', 'ornc-events'), get_the_time(__('Y', 'minimalism'))); ?></h2>
 	  <?php /* If this is an author archive */ } elseif (is_author()) { ?>
-		<h2 class="pagetitle"><?php _e('Author Archive', 'lawsociety'); ?></h2>
+		<h2 class="pagetitle"><?php _e('Author Archive', 'ornc-events'); ?></h2>
  	  <?php /* If this is a paged archive */ } elseif (isset($_GET['paged']) && !empty($_GET['paged'])) { ?>
-		<h2 class="pagetitle"><?php _e('Blog Archives', 'lawsociety'); ?></h2>
+		<h2 class="pagetitle"><?php _e('Blog Archives', 'ornc-events'); ?></h2>
  	  <?php } ?>
       
       

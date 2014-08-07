@@ -40,11 +40,11 @@ function new_excerpt($charlength) {
 function my_custom_login_logo() {
     echo '<style type="text/css">
         .login h1 a { 
-		  background-image:url('.get_bloginfo('template_directory').'/images/law-society-logo.png) !important;
-		  width:96px; height:63px;
+		  background-image:url('.get_bloginfo('template_directory').'/images/logo.png) !important;
+		  width:183px; height:63px;
 		  background-repeat: no-repeat;
 		  background-position: center center;
-          background-size: 96px 63px;
+          background-size: 183px 63px;
 		  padding:10px;
 		  margin:0 auto 15px auto;
 		  background-color:#FFFFFF;
@@ -94,7 +94,7 @@ remove_action( 'admin_notices', 'update_nag', 3 );
 
 // custom theme options
 
-$themename = "Law Society";
+$themename = "ORNC Events";
 $shortname = "ls";
 
 $categories = get_categories('hide_empty=0&orderby=name');
@@ -118,7 +118,7 @@ array( "name" => "Custom Favicon",
 	"desc" => "A favicon is a 16x16 pixel icon that represents your site; paste the URL to you favicon",
 	"id" => $shortname."_favicon",
 	"type" => "text",
-	"std" => get_bloginfo('url') ."/wp-content/themes/lawsociety/favicon.png"),	
+	"std" => get_bloginfo('url') ."/wp-content/themes/ornc-events/favicon.png"),	
 	
 array( "name" => "Book Event text",
 	"desc" => "The Book Event text at the bottom of the packages page",
