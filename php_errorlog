@@ -1,0 +1,4 @@
+[02-Jul-2014 14:16:37] PHP Fatal error:  Call to undefined function  bloginfo() in /home/botanica/public_html/venue/wp-content/themes/bbg-theme2/header.php on line 17
+[07-Jul-2014 18:59:07] PHP Fatal error:  Call to undefined function  bloginfo() in /home/botanica/public_html/venue/wp-content/themes/bbg-theme2/header.php on line 17
+[30-Jul-2014 19:44:29] PHP Fatal error:  Call to undefined function  bloginfo() in /home/botanica/public_html/venue/wp-content/themes/bbg-theme2/header.php on line 17
+[04-Aug-2014 16:19:23] PHP Fatal error:  Call to undefined function  bloginfo() in /home/botanica/public_html/venue/wp-content/themes/bbg-theme2/header.php on line 17

@@ -1,0 +1,455 @@
+
+
+
+/* home */
+
+
+.homepage-carousel-overlay {
+position: absolute; 
+left: -659px; 
+top: 10px; 
+font-size: 49px;  
+color: #FFFFFF; 
+opacity: 0.8;
+text-transform: uppercase;
+letter-spacing: 2px;
+/* text-shadow: 1px 1px 2px #000000; */
+font-weight: bold;
+/* background: RGBA(0,0,0,0.3); */
+padding: 5px 5px 5px 5px;
+}
+
+
+
+.green ::-moz-selection { background:#A9BBB7; color:#FFF;}
+.green ::selection { background:#A9BBB7; color:#FFF;}
+body.green {
+	background:#A9BBB7;
+}
+.main-nav > ul > li.green.current-menu-item > a,
+.main-nav > ul > li.green.current-page-ancestor > a, 
+.main-nav > ul > li.green a:hover {
+	background:#A9BCB8;
+	color:#FFF;
+}
+.main-nav > ul > li a.current-menu-item:after, 
+.main-nav > ul > li.current-menu-item > a:before,
+.main-nav > ul > li.current-page-ancestor > a:after, 
+.main-nav > ul > li.current-page-ancestor > a:before, 
+.main-nav > ul > li a:hover:after, 
+.main-nav > ul > li a:hover:before {
+	border-top: 6px solid #8b0036!important;
+}
+.green .pod-title {
+	background:#A9BCBB;
+	color:#FFF;
+}
+.olive .flex-control-paging li a {
+	background: #A9BBB7;
+}
+.olive .blog-title a:hover {
+	color:#A9BBB7;
+}
+/* event spaces */
+.orange ::-moz-selection { background:#BE904D; color:#FFF;}
+.orange ::selection { background:#BE904D; color:#FFF;}
+body.orange {
+	background:#BE904D;
+}
+.main-nav > ul > li.orange.current-menu-item > a,
+.main-nav > ul > li.orange.current-page-ancestor > a, 
+.main-nav > ul > li.orange a:hover {
+	background:#BE904D;
+	color:#FFF;
+}
+.main-nav > ul > li.orange.current-menu-item > a:after, 
+.main-nav > ul > li.orange.current-menu-item > a:before,
+.main-nav > ul > li.orange.current-page-ancestor > a:after, 
+.main-nav > ul > li.orange.current-page-ancestor > a:before, 
+.main-nav > ul > li.orange a:hover:after, 
+.main-nav > ul > li.orange a:hover:before {
+	border-top: 6px solid #BE904D;
+}
+.event-info-boxes li {
+	background:#4c6953;
+	color:#FFF;
+}
+.event-info-boxes li:hover {
+	background:#585858;
+	
+}
+
+.orange .pod-title {
+	background:#BE904D;
+	color:#FFF;
+}
+.orange .flex-control-paging li a {
+	background: #BE904D;
+}
+.orange .book-btn, .orange .book-btn a {
+	display:block;
+	background: #BE904D;
+	color:#FFF;
+	font-size:18px;
+	height:40px; line-height:40px;
+	text-align:center;
+	width:100%;
+	text-transform:uppercase;
+}
+.orange .book-btn:hover, .orange .book-btn a:hover {
+	background:#585858;
+}
+ul.event-info-boxes li.tube p {
+	background:url(images/tube-icon.png) no-repeat center left;
+	padding-left:25px;
+}
+ul.event-info-boxes li.wed p {
+	background:url(images/weddings-icon.png) no-repeat center left;
+	padding-left:25px;
+}
+ul.event-info-boxes li.xmas p {
+	background:url(images/christmas-icon.png) no-repeat center left;
+	padding-left:25px;
+}
+ul.event-info-boxes li.ddr p {
+	background:url(images/ddr-icon.png) no-repeat center left;
+	padding-left:25px;
+}
+ul.event-info-boxes li.bar p {
+	background:url(images/rest-bar-icon.png) no-repeat center left;
+	padding-left:16px;
+}
+.blog-entries.rooms > .summary a:hover {
+	color:#BE904D;
+}
+ul.room-info-boxes li a {
+	background:#4c6953;
+	color:#FFFFFF;
+}
+ul.room-info-boxes li a:hover {
+	background:#585858;
+	color:#FFFFFF;
+}
+.event-rooms-excerpt h5 a:hover {
+	color:#BE904D;
+}
+/* restaurant */
+.purple ::-moz-selection { background:#9A97B8; color:#FFF;}
+.purple ::selection { background:#9A97B8; color:#FFF;}
+body.purple {
+	background:#9A97B8;
+}
+.main-nav > ul > li > a {
+	background:#9A97B8;
+	color:#FFF;
+}
+.main-nav > ul > li > a:after, 
+.main-nav > ul > li > a:before, 
+ {
+	border-top: 6px solid #9A97B8;
+}
+.purple .pod-title {
+	background:#9A97B8;
+	color:#FFF;
+}
+.purple .flex-control-paging li a {
+	background: #9A97B8;
+}
+/* packages */
+.brown ::-moz-selection { background:#BB9273; color:#FFF;}
+.brown ::selection { background:#BB9273; color:#FFF;}
+body.brown {
+	background:#BB9273;
+}
+.main-nav > ul > li.brown.current-menu-item > a,
+.main-nav > ul > li.brown a:hover {
+	background:#BB9273;
+	color:#FFF;
+}
+.main-nav > ul > li.brown.current-menu-item > a:after, 
+.main-nav > ul > li.brown.current-menu-item > a:before, 
+.main-nav > ul > li.brown a:hover:after, 
+.main-nav > ul > li.brown a:hover:before {
+	border-top: 6px solid #BB9273;
+}
+.brown .pod-title {
+	background:#BB9273;
+	color:#FFF;
+}
+.brown .flex-control-paging li a {
+	background: #BB9273;
+}
+.brown .book-btn, .brown .book-btn a {
+	display:block;
+	background: #BB9273;
+	color:#FFF;
+	font-size:18px;
+	height:40px; line-height:40px;
+	text-align:center;
+	width:100%;
+	text-transform:uppercase;
+}
+.brown .book-btn:hover, .brown .book-btn a:hover {
+	background:#585858;
+}
+h4.book-event {
+	font-size:23px;
+	color:#BB9273;
+}
+/* latest news */
+.blue ::selection { background:#A5b2C7; color:#FFF;}
+body.blue {
+	background:#A5b2C7;
+}
+.main-nav > ul > li.blue.current-menu-item > a, 
+.main-nav > ul > li.blue.current-page-ancestor > a, 
+.main-nav > ul > li.blue a:hover {
+	background:#A5b2C7;
+	color:#FFF;
+}
+.main-nav > ul > li.blue.current-menu-item > a:after, 
+.main-nav > ul > li.blue.current-menu-item > a:before,
+.main-nav > ul > li.blue.current-page-ancestor > a:after, 
+.main-nav > ul > li.blue.current-page-ancestor > a:before, 
+.main-nav > ul > li.blue a:hover:after, 
+.main-nav > ul > li.blue a:hover:before {
+	border-top: 6px solid #A5b2C7;
+}
+.blog-tags li a, .wp-tag-cloud li a {
+	color:#FFF;
+	background-color:#4c6953!important;
+}
+.blog-tags li a:hover, .wp-tag-cloud li a:hover, .wp-tag-cloud li a.active   {
+	background-color:#585858!important;
+}
+.blog-tags li.press a, .wp-tag-cloud li a.tag-link-5 {
+	background:#A5b2C7 url(images/press-icon.png) no-repeat 5px center;
+	padding-left:30px;
+	padding-right:8px;
+}
+.blog-tags li.weddings a, .wp-tag-cloud li a.tag-link-10 {
+	background:#A5b2C7 url(images/weddings-icon.png) no-repeat 5px center;
+	padding-left:30px;
+	padding-right:8px;
+}
+.blog-tags li.restaurant a, .wp-tag-cloud li a.tag-link-9 {
+	background:#A5b2C7 url(images/rest-bar-icon.png) no-repeat 5px center;
+	padding-left:21px;
+	padding-right:8px;
+}
+.blog-tags li.events a, .wp-tag-cloud li a.tag-link-8 {
+	background:#A5b2C7 url(images/event-icon.png) no-repeat 5px center;
+	padding-left:21px;
+	padding-right:8px;
+}
+
+.blog-tags li.events a, .wp-tag-cloud li a.tag-link-28 {
+	background:#A5b2C7 url(images/hosp-icon.png) no-repeat 5px center;
+	padding-left:21px;
+	padding-right:8px;
+}
+
+.blog-tags li p a:hover {
+	color:#585858;
+}
+.blog-entries > .summary {
+	border-top:1px dotted #A5b2C7;
+
+}
+.blog-entries.blogs > .summary a:hover {
+	color:#A5b2C7;
+}
+.post-tags {
+	float:left;
+}
+.post-tags li  {
+	float:left;
+	height:15px;
+	margin-left:7px;
+}
+.post-tags li a {
+	display:inline-block; height:15px;
+}
+.post-tags li:first-child {
+	margin-left:0;
+}
+.post-tags li.wedding a {
+	background:url(images/weddings-icon-post-tag.png) no-repeat 0 0;
+	width:14px;
+}
+
+.post-tags li.events a {
+	background:url(images/event-icon-post-tag.png) no-repeat 0 0;
+	width:14px;
+}
+
+.post-tags li.press a {
+	background:url(images/press-icon-post-tag.png) no-repeat 0 0;
+	width:17px;
+}
+.post-tags li.restaurant-bar a {
+	background:url(images/rest-icon-post-tag.png) no-repeat 0 0;
+	width:7px;
+}
+.post-tags li.hospitality-menus a {
+	background:url(images/rest-icon-post-tag.png) no-repeat 0 0;
+	width:7px;
+}
+
+/* contact */
+.olive ::selection { background:#4c6953; color:#FFF;}
+body.olive {
+	background:#4c6953;
+}
+
+.olive .pod-title {
+background: #FFF;
+color: #000;
+padding: 10px;
+text-align: center;
+font-size: 18px;
+font-weight:bold;
+}
+
+.main-nav > ul > li.olive.current-menu-item > a, 
+.main-nav > ul > li.olive a:hover {
+	background:#BCAB8B;
+	color:#FFF;
+}
+.main-nav > ul > li.olive.current-menu-item > a:after, 
+.main-nav > ul > li.olive.current-menu-item > a:before, 
+.main-nav > ul > li.olive a:hover:after, 
+.main-nav > ul > li.olive a:hover:before {
+	border-top: 6px solid #BCAB8B;
+}
+.large-map-link {
+	color:#000000;
+}
+.large-map-link:hover {
+	color:#BCAB8B;
+}
+
+body.page-id-2 .main-nav{display:none!important;}
+
+.pod-title{
+
+/* Safari */
+-webkit-transform: rotate(-90deg);
+
+/* Firefox */
+-moz-transform: rotate(-90deg);
+
+/* IE */
+-ms-transform: rotate(-90deg);
+
+/* Opera */
+-o-transform: rotate(-90deg);
+
+/* Internet Explorer */
+filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+
+position: relative;
+left:-75px;
+top:-140px;
+
+zoom: 1;
+	filter: alpha(opacity=50);
+	opacity: 0.5;
+color: #000;
+
+height: 50px;
+}
+
+
+
+.menu li .current-page-item{
+width: 0;
+height: 0;
+border-left: 6px solid transparent;
+border-right: 6px solid transparent;
+bottom: -6px;
+content: '';
+position: absolute;
+left: 50%;
+margin-left: -6px;
+}
+
+.page-id-72 .main-nav .menu{display:none!important;}
+
+#fscf_form_fieldset1{border:none!important; columns:2;-webkit-columns:2;-moz-columns:2;width: 1024px; margin-top: 40px;}
+#fscf_form_fieldset1 legend{position: relative; top: -40px; text-align:center;}
+
+div.details{width: 400px; float: left;}
+
+#FSContact2 {columns:100px 2;
+-webkit-columns:100px 2; /* Safari and Chrome */
+-moz-columns:100px 2; /* Firefox */}
+
+
+body.Menus .page-title{
+
+/* Safari */
+-webkit-transform: rotate(-90deg);
+
+/* Firefox */
+-moz-transform: rotate(-90deg);
+
+/* IE */
+-ms-transform: rotate(-90deg);
+
+/* Opera */
+-o-transform: rotate(-90deg);
+
+/* Internet Explorer */
+filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+
+background-color: #3b6a57;
+width: 100%;
+line-height: 60px;
+height: 60px;
+color: #fff;
+text-align:center;
+position: relative; 
+top: 556px;
+left:-482px;
+}
+
+body.Menus .single-blog-entry{position: relative; left: 150px; width: 800px;}
+body.Menus .single-blog-img{float: right;}
+body.Menus h1{color:#3b6a57; font-size: 34px;}
+body.Menus h2{color:#3b6a57; font-size: 24px;}
+body.Menus span{color:#3b6a57; font-size: 18px; margin-top: 10px;}
+body.Menus .wrapper{overflow:hidden;}
+body.Menus span.right{float:right; font-size: 14px;}
+body.Menus em{font-style:italic;}
+
+body.page-id-141 .blog-entries{
+columns:2;
+-moz-columns:2;
+-webkit-columns:2;
+width: 1020px;
+}
+
+body.page-id-141 .summary{
+width: 490px!important;
+height: 240px!important;
+border: none!important;
+padding: 0px;
+
+}
+
+body.page-id-141 .summary .blog-summary-contents {
+width: 290px!important;
+}
+
+body.page-id-141 .blog-entries > .summary:first-child{padding:0px;}
+
+body.page-id-141 h3.blog-title{width: 290px!important;}
+
+body.page-id-86 .col2-right{
+height: 400px!important;
+overflow: visible!important;
+}
+
+span.case{display:none;}
+
